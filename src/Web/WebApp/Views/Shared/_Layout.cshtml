@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Almoxarifado</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="sidebar">
+            <h2>Logo</h2>
+            <ul>
+                <li><a href="#"><i class="fas fa-home"></i>início</a></li>
+                <li><a asp-controller="Cliente" asp-action="Novo"><i class="fas fa-user"></i>Clientes</a></li>
+                <li><a asp-controller="Produto" asp-action="Novo"><i class="fas fa-barcode"></i>Produtos</a></li>
+                <li><a asp-controller="Fornecedor" asp-action="Novo"><i class="fas fa-address-card"></i>Fornecedores</a></li>
+                <li><a href="#"><i class="fas fa-boxes"></i>Estoque</a></li>
+                <li><a href="#"><i class="fas fa-address-book"></i>Pedidos</a></li>
+                <li><a href="#"><i class="fas fa-table"></i>Relatórios</a></li>
+            </ul>
+
+        </div>
+        <div class="main_content">
+            <div class="info">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2021 - WebApp - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

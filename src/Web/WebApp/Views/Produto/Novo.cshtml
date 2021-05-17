@@ -1,0 +1,74 @@
+﻿@model WebApp.Models.ProdutoViewModel
+
+<div class="header">CADASTRO DE PRODUTOS</div>
+
+<div class="container">
+    <form asp-action="Novo">
+        <div class="card">
+            <h5 class="card-header text-center">Formulário</h5>
+            <div class="card-body">
+                <div class="row">
+
+                    <div class="col-md-10">
+                        <label asp-for="NomeDoProduto" class="form-label"></label>
+                        <input type="text" asp-for="NomeDoProduto" class="form-control" placeholder="Sabão, Vassoura....">
+                        <span asp-validation-for="NomeDoProduto" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-2">
+                        <label asp-for="Quantidade" class="form-label"></label>
+                        <input type="number" asp-for="Quantidade" class="form-control" placeholder="0">
+                        <span asp-validation-for="Quantidade" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <label asp-for="Preco" class="form-label"></label>
+                        <input type="number" class="form-control" asp-for="Preco" placeholder="0,00">
+                        <span asp-validation-for="Preco" class="text-danger"></span>
+                    </div>
+
+                    <div class="col-md-3">
+                        <label asp-for="Categoria" class="form-label"></label>
+                        <input asp-for="Categoria" class="form-control" type="text" />
+                        <span asp-validation-for="Categoria" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-4">
+                        <label asp-for="Fornecedor" class="form-label"></label>
+                        <input asp-for="Fornecedor" class="form-control" type="text" />
+                        <span asp-validation-for="Fornecedor" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-3">
+                        <label asp-for="Cnpj" class="form-label">Cnpj</label>
+                        <input type="text" class="form-control" asp-for="Cnpj" placeholder="">
+                        <span asp-validation-for="Cnpj" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <label asp-for="Descricao" class="form-label">Descrição</label>
+                        <input type="text" class="form-control" asp-for="Descricao">
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="row">
+                    <div class="col-4">
+                        <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Voltar</a>
+                    </div>
+                    <div class="col-4 text-center">
+                        <input class="btn btn-secondary" type="reset" value="Resetar">
+                    </div>
+                    <div class="col-4 text-right">
+                        <input type="submit" class="btn btn-secondary" value="Gravar" id="btnGravar" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
