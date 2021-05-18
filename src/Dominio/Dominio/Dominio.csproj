@@ -8,8 +8,4 @@
     <None Remove="Entidades\Produto.cs~RF56602e.TMP" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="IRepositories\" />
-  </ItemGroup>
-
 </Project>

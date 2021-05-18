@@ -29,5 +29,7 @@ namespace Dominio.Entidades
         public string Bairro { get; private set; }
         public string Complemento { get; private set; }
 
+        public IEnumerable<Produto> ListaDeProdutos { get; private set; }
+
     }
 }
