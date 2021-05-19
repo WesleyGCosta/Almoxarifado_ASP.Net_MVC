@@ -5,9 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Contexto\Maps\" />
     <Folder Include="Migrations\" />
-    <Folder Include="Persistencias\" />
   </ItemGroup>
 
   <ItemGroup>
