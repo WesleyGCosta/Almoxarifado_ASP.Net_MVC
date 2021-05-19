@@ -1,6 +1,12 @@
 ﻿@model WebApp.Models.ProdutoViewModel
 
-<div class="header">CADASTRO DE PRODUTOS</div>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <span class="navbar-text" >
+                Pagina Principal >> Cadastro de Produto
+            </span>
+        </div>
+    </nav>
 
 <div class="container">
     <form asp-action="Novo">
@@ -11,7 +17,7 @@
 
                     <div class="col-md-10">
                         <label asp-for="NomeDoProduto" class="form-label"></label>
-                        <input type="text" asp-for="NomeDoProduto" class="form-control" placeholder="Sabão, Vassoura....">
+                        <input type="text" asp-for="NomeDoProduto" class="form-control" placeholder="Nome do Produto">
                         <span asp-validation-for="NomeDoProduto" class="text-danger"></span>
                     </div>
                     <div class="col-md-2">
@@ -29,17 +35,17 @@
 
                     <div class="col-md-3">
                         <label asp-for="Categoria" class="form-label"></label>
-                        <input asp-for="Categoria" class="form-control" type="text" />
+                        <input asp-for="Categoria" class="form-control" type="text" placeholder="Categoria" />
                         <span asp-validation-for="Categoria" class="text-danger"></span>
                     </div>
                     <div class="col-md-4">
                         <label asp-for="Fornecedor" class="form-label"></label>
-                        <input asp-for="Fornecedor" class="form-control" type="text" />
+                        <input asp-for="Fornecedor" class="form-control" type="text" placeholder="Fornecedor"/>
                         <span asp-validation-for="Fornecedor" class="text-danger"></span>
                     </div>
                     <div class="col-md-3">
                         <label asp-for="Cnpj" class="form-label">Cnpj</label>
-                        <input type="text" class="form-control" asp-for="Cnpj" placeholder="">
+                        <input type="text" class="form-control" asp-for="Cnpj" placeholder="999.999.999-99">
                         <span asp-validation-for="Cnpj" class="text-danger"></span>
                     </div>
                 </div>

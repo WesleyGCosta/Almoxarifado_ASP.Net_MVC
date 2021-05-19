@@ -6,7 +6,7 @@ namespace WebApp.Models
 {
     public class ProdutoViewModel
     {
-        [DisplayName("Nome do produto")]
+        [DisplayName("Produto")]
         [Required(ErrorMessage = "*Campo é Obrigatório!")]
         public string NomeDoProduto { get; set; }
 

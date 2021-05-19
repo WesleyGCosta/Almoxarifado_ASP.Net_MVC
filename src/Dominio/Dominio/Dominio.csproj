@@ -4,8 +4,4 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Remove="Entidades\Produto.cs~RF56602e.TMP" />
-  </ItemGroup>
-
 </Project>
