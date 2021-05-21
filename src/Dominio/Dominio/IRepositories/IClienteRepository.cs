@@ -10,7 +10,7 @@ namespace Dominio.IRepositories
         Task Alterar(Cliente cliente);
         Task Excluir(Cliente cliente);
         Task<Cliente> BuscarPorId(int id);
-        Task <IEnumerable<Cliente>> ListarTodosCliente();
+        Task <IEnumerable<Cliente>> ListarTodosClientes();
 
     }
 }

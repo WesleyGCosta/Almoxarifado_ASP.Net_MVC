@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QV6VtQiNTI/AO1U1d95DCBFm9R237qz+9NurpCiMXLQCU90GPEsNeEDUNRJmkZSuB0JCls5sQSVYgZBQXriu7Q==",
+  "dgSpecHash": "D3DsOVaV5lj5UpTD5AS/vig7TaK5hP3pfYRd/mvEFCA7SJID/kFJ8RQiSUv2quxtQsV431lLEj0yHk6LpAI9/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Wesle\\OneDrive\\Documentos\\Meus_Projetos\\Projeto_web\\Almoxarifado\\Almoxarifado\\src\\Dominio\\Dominio\\Dominio.csproj",
+  "projectFilePath": "C:\\Users\\02520013206\\Desktop\\Projetos\\Almoxarifado_dotnet_MVC\\src\\Dominio\\Dominio\\Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

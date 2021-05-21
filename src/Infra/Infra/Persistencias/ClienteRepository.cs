@@ -44,7 +44,10 @@ namespace Infra.Persistencias
         {
             return await _dataContext.Clientes.AsNoTracking().ToListAsync();
         }
-        
 
+        public Task<IEnumerable<Cliente>> ListarTodosClientes()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

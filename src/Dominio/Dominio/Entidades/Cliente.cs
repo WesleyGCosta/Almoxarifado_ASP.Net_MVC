@@ -26,5 +26,19 @@ namespace Dominio.Entidades
         public string Endereco { get; private set; }
         public string Bairro { get; private set; }
         public ESexo Sexo { get; private set; }
+
+        public void AtualizarCliente(string nome, string cpf,
+            DateTime dataDeNascimento, string telefone,
+            string endereco, string bairro, ESexo sexo)
+        {
+            this.Nome = nome;
+            this.Cpf = cpf;
+            this.DataDeNascimento = dataDeNascimento;
+            this.Telefone = telefone;
+            this.Endereco = endereco;
+            this.Bairro = bairro;
+            this.Sexo = sexo;
+        }
+        
     }
 }
