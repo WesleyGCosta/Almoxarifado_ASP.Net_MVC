@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
@@ -9,6 +10,9 @@ namespace WebApp.Models
 {
     public class ClienteViewModel
     {
+        [HiddenInput]
+        public int Id { get; set; }
+        
         [Required(ErrorMessage = "*Campo Obrigatório!")]
         [StringLength(50, ErrorMessage = "* O Nome precisa ter no mínimo 8 Letras!", MinimumLength = 8)]
         public string Nome { get; set; }
