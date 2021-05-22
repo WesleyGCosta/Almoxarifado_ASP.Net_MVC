@@ -16,3 +16,12 @@ C:\Users\02520013206\Desktop\Projetos\Almoxarifado_dotnet_MVC\src\Dominio\Domini
 C:\Users\02520013206\Desktop\Projetos\Almoxarifado_dotnet_MVC\src\Dominio\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\02520013206\Desktop\Projetos\Almoxarifado_dotnet_MVC\src\Dominio\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
 C:\Users\02520013206\Desktop\Projetos\Almoxarifado_dotnet_MVC\src\Dominio\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Dominio\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Dominio\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Dominio\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Dominio\Dominio\obj\Debug\netcoreapp3.1\Dominio.csprojAssemblyReference.cache
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Dominio\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Dominio\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Dominio\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Dominio\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Dominio\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb

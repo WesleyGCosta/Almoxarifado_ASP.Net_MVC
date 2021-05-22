@@ -5,6 +5,9 @@ namespace Dominio.Entidades
 {
     public class Cliente
     {
+        private DateTime dataDeNascimento;
+        private string sexo;
+
         public Cliente(string nome, string cpf, 
             DateTime dataDeNascimento, string telefone, 
             string endereco, string bairro, ESexo sexo)
@@ -16,6 +19,17 @@ namespace Dominio.Entidades
             Endereco = endereco;
             Bairro = bairro;
             Sexo = sexo;
+        }
+
+        public Cliente(string nome, string telefone, string endereco, string cpf, DateTime dataDeNascimento, string bairro, string sexo)
+        {
+            Nome = nome;
+            Telefone = telefone;
+            Endereco = endereco;
+            Cpf = cpf;
+            this.dataDeNascimento = dataDeNascimento;
+            Bairro = bairro;
+            this.sexo = sexo;
         }
 
         public int Id { get; private set; }

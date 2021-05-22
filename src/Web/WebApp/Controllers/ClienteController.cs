@@ -40,6 +40,83 @@ namespace WebApp.Controllers
             return View();
         }
 
-        
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Criar(ClienteViewModel clienteViewModel)
+        {
+            if (ModelState.IsValid)
+            {
+                var cliente = ClienteFactory.MapearCliente(clienteViewModel);
+
+                await _criarCliente.Executar(cliente);
+
+                return RedirectToAction("Index");
+            }
+
+            return View(clienteViewModel);
+        }
+
+
+        //aqui
+        public async Task<IActionResult> Alterar(int id)
+        {
+            var cliente = await _consultarCliente.BuscarPorId(id);
+
+            if (cliente == null)
+            {
+                return RedirectToAction("Index");
+            }
+
+            var autorViewModel = ClienteFactory.MapearClienteViewodel(cliente);
+
+            return View(autorViewModel);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Alterar(int id, ClienteViewModel clienteViewModel)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(clienteViewModel);
+            }
+
+            var autor = ClienteFactory.MapearCliente(clienteViewModel);
+
+            await _alterarCliente.Executar(id, autor);
+
+            return RedirectToAction("Index");
+        }
+
+        public async Task<IActionResult> Detalhar(int id)
+        {
+            var cliente= await _consultarCliente.BuscarPorId(id);
+
+            if (cliente == null)
+            {
+                return RedirectToAction("Index");
+            }
+
+            var autorViewModel = ClienteFactory.MapearClienteViewodel(cliente);
+
+            return View(autorViewModel);
+        }
+
+        public async Task<IActionResult> Excluir(int id)
+        {
+            var cliente = await _consultarCliente.BuscarPorId(id);
+
+            if (cliente == null)
+            {
+                return RedirectToAction("Index");
+            }
+
+
+            await _excluirCliente.Executar(cliente);
+
+            return RedirectToAction("Index");
+        }
+
+
     }
 }

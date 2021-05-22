@@ -25,8 +25,33 @@ namespace WebApp.Factories
 
             return clienteViewModel;
         }
+        public static Cliente MapearCliente(ClienteViewModel clienteViewModel)
+        {
+            var cliente = new Cliente(clienteViewModel.Nome,
+                clienteViewModel.Telefone, clienteViewModel.Endereco,
+                clienteViewModel.Cpf, clienteViewModel.DataDeNascimento,
+                clienteViewModel.Bairro, sexo: clienteViewModel.Sexo);
+
+            return cliente;
+        }
 
         internal static object MapearClienteViewodel(IEnumerable<Cliente> listaClientes)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static IEnumerable<ClienteViewModel> MapearListaClienteViewModel(IEnumerable<Cliente> clientes)
+        {
+            var lista = new List<ClienteViewModel>();
+            foreach (var item in clientes)
+            {
+                lista.Add(MapearListaClienteViewModel(item));
+            }
+
+            return lista;
+        }
+
+        private static ClienteViewModel MapearListaClienteViewModel(Cliente item)
         {
             throw new NotImplementedException();
         }

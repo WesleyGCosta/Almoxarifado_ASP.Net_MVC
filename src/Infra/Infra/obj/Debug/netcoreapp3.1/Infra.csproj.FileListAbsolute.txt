@@ -28,3 +28,18 @@ C:\Users\02520013206\Desktop\Projetos\Almoxarifado_dotnet_MVC\src\Infra\Infra\ob
 C:\Users\02520013206\Desktop\Projetos\Almoxarifado_dotnet_MVC\src\Infra\Infra\obj\Debug\netcoreapp3.1\Infra.dll
 C:\Users\02520013206\Desktop\Projetos\Almoxarifado_dotnet_MVC\src\Infra\Infra\obj\Debug\netcoreapp3.1\Infra.pdb
 C:\Users\02520013206\Desktop\Projetos\Almoxarifado_dotnet_MVC\src\Infra\Infra\obj\Debug\netcoreapp3.1\Infra.genruntimeconfig.cache
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Infra\Infra\bin\Debug\netcoreapp3.1\Infra.deps.json
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Infra\Infra\bin\Debug\netcoreapp3.1\Infra.runtimeconfig.json
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Infra\Infra\bin\Debug\netcoreapp3.1\Infra.runtimeconfig.dev.json
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Infra\Infra\bin\Debug\netcoreapp3.1\Infra.dll
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Infra\Infra\bin\Debug\netcoreapp3.1\Infra.pdb
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Infra\Infra\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Infra\Infra\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Infra\Infra\obj\Debug\netcoreapp3.1\Infra.csprojAssemblyReference.cache
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Infra\Infra\obj\Debug\netcoreapp3.1\Infra.AssemblyInfoInputs.cache
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Infra\Infra\obj\Debug\netcoreapp3.1\Infra.AssemblyInfo.cs
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Infra\Infra\obj\Debug\netcoreapp3.1\Infra.csproj.CoreCompileInputs.cache
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Infra\Infra\obj\Debug\netcoreapp3.1\Infra.csproj.CopyComplete
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Infra\Infra\obj\Debug\netcoreapp3.1\Infra.dll
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Infra\Infra\obj\Debug\netcoreapp3.1\Infra.pdb
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Infra\Infra\obj\Debug\netcoreapp3.1\Infra.genruntimeconfig.cache

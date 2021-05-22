@@ -35,7 +35,6 @@ namespace WebApp.Models
         [Required(ErrorMessage = "*Campo Obrigatório!")]
         public string Bairro { get; set; }
 
-        [Required(ErrorMessage = "*Campo Obrigatório!")]
         public string Sexo{ get; set; }
 
     }
