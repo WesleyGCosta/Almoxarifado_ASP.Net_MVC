@@ -1277,3 +1277,4 @@ C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Web\
 C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\WebApp.dll
 C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\WebApp.pdb
 C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\WebApp.genruntimeconfig.cache
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Web\WebApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
