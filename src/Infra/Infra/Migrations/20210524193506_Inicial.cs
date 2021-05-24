@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Infra.Migrations
@@ -12,7 +13,7 @@ namespace Infra.Migrations
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
                     Nome = table.Column<string>(type: "Varchar(50)", maxLength: 50, nullable: false),
                     Cpf = table.Column<string>(type: "Varchar(15)", maxLength: 15, nullable: false),
                     DataDeNascimento = table.Column<DateTime>(type: "Date", nullable: false),

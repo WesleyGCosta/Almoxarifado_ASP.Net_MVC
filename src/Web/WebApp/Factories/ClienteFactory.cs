@@ -51,9 +51,6 @@ namespace WebApp.Factories
             return lista;
         }
 
-        private static ClienteViewModel MapearListaClienteViewModel(Cliente item)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

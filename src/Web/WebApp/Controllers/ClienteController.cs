@@ -117,6 +117,11 @@ namespace WebApp.Controllers
             return RedirectToAction("Index");
         }
 
+        public IActionResult Teste()
+        {
+            return View();
+        }
+
 
     }
 }
