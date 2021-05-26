@@ -1,4 +1,5 @@
 ﻿using Dominio.Entidades;
+using Dominio.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,17 +21,21 @@ namespace WebApp.Factories
                 Telefone = cliente.Telefone,
                 Endereco = cliente.Endereco,
                 Bairro = cliente.Bairro,
-                
+                Sexo = cliente.Sexo
             };
 
             return clienteViewModel;
         }
         public static Cliente MapearCliente(ClienteViewModel clienteViewModel)
         {
-            var cliente = new Cliente(clienteViewModel.Nome,
-                clienteViewModel.Telefone, clienteViewModel.Endereco,
-                clienteViewModel.Cpf, clienteViewModel.DataDeNascimento,
-                clienteViewModel.Bairro, sexo: clienteViewModel.Sexo);
+            var cliente = new Cliente(
+                clienteViewModel.Nome,
+                clienteViewModel.Telefone,
+                clienteViewModel.Endereco,
+                clienteViewModel.Cpf,
+                clienteViewModel.DataDeNascimento,
+                clienteViewModel.Bairro,
+                clienteViewModel.Sexo);
 
             return cliente;
         }

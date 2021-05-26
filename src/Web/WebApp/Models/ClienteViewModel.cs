@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Dominio.Enums;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -35,7 +36,8 @@ namespace WebApp.Models
         [Required(ErrorMessage = "*Campo Obrigatório!")]
         public string Bairro { get; set; }
 
-        public string Sexo{ get; set; }
+        [Required(ErrorMessage = "*Campo Obrigatório!")]
+        public ESexo Sexo{ get; set; }
 
     }
 }
