@@ -7,9 +7,9 @@ using WebApp.Models;
 
 namespace WebApp.Factories
 {
-    public class ClienteFactory
+    public static class ClienteFactory
     {
-        public static ClienteViewModel MapearClienteViewodel(Cliente cliente)
+        public static ClienteViewModel MapearClienteViewModel(Cliente cliente)
         {
             var clienteViewModel = new ClienteViewModel
             {
@@ -35,17 +35,13 @@ namespace WebApp.Factories
             return cliente;
         }
 
-        internal static object MapearClienteViewodel(IEnumerable<Cliente> listaClientes)
-        {
-            throw new NotImplementedException();
-        }
 
         public static IEnumerable<ClienteViewModel> MapearListaClienteViewModel(IEnumerable<Cliente> clientes)
         {
             var lista = new List<ClienteViewModel>();
             foreach (var item in clientes)
             {
-                lista.Add(MapearListaClienteViewModel(item));
+                lista.Add(MapearClienteViewModel(item));
             }
 
             return lista;

@@ -1242,7 +1242,9 @@ C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Web\
 C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\WebApp.TagHelpers.input.cache
 C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\WebApp.TagHelpers.output.cache
 C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\WebApp.RazorCoreGenerate.cache
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Cliente\Alterar.cshtml.g.cs
 C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Cliente\Criar.cshtml.g.cs
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Cliente\Detalhar.cshtml.g.cs
 C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Cliente\Index.cshtml.g.cs
 C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Fornecedor\Index.cshtml.g.cs
 C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Fornecedor\Novo.cshtml.g.cs
@@ -1261,4 +1263,3 @@ C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Web\
 C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\WebApp.dll
 C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\WebApp.pdb
 C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\WebApp.genruntimeconfig.cache
-C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_dotnet_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Cliente\Teste.cshtml.g.cs

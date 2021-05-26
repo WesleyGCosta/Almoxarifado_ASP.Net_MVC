@@ -40,7 +40,7 @@ namespace Infra.Persistencias
             return cliente;
         }
 
-        public async Task<IEnumerable<Cliente>> ListarTodosCliente()
+        public async Task<IEnumerable<Cliente>> ListarTodosClientes()
         {
             return await _dataContext.Clientes.AsNoTracking().ToListAsync();
         }

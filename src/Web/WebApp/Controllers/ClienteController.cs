@@ -30,7 +30,7 @@ namespace WebApp.Controllers
         public async Task<IActionResult> Index()
         {
             var ListaClientes = await _consultarCliente.ListarTodosClientes();
-            var ListarClientesViewModel = ClienteFactory.MapearClienteViewodel(ListaClientes);
+            var ListarClientesViewModel = ClienteFactory.MapearListaClienteViewModel(ListaClientes);
 
             return View(ListarClientesViewModel);
         }
@@ -67,7 +67,7 @@ namespace WebApp.Controllers
                 return RedirectToAction("Index");
             }
 
-            var autorViewModel = ClienteFactory.MapearClienteViewodel(cliente);
+            var autorViewModel = ClienteFactory.MapearClienteViewModel(cliente);
 
             return View(autorViewModel);
         }
@@ -97,7 +97,7 @@ namespace WebApp.Controllers
                 return RedirectToAction("Index");
             }
 
-            var autorViewModel = ClienteFactory.MapearClienteViewodel(cliente);
+            var autorViewModel = ClienteFactory.MapearClienteViewModel(cliente);
 
             return View(autorViewModel);
         }
@@ -117,10 +117,6 @@ namespace WebApp.Controllers
             return RedirectToAction("Index");
         }
 
-        public IActionResult Teste()
-        {
-            return View();
-        }
 
 
     }
