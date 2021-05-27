@@ -1,4 +1,4 @@
-﻿@using Dominio.Enums
+﻿
 @model WebApp.Models.ClienteViewModel
 
 <nav class="navbar navbar-light bg-light">
@@ -45,8 +45,11 @@
                     </div>
                     <div class="col-md-2">
                         <label asp-for="Sexo"></label>
-                        <select asp-items="@Html.GetEnumSelectList<ESexo>()" class="custom-select">
-
+                        <select asp-for="Sexo" class="custom-select">
+                            <option></option>
+                            <option value="1">Masculino</option>
+                            <option value="2">Feminino</option>
+                            <option value="3">Outros</option>
                         </select>
                         <span asp-validation-for="Sexo" class="text-danger"></span>
                     </div>
