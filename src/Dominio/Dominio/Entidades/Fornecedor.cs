@@ -6,9 +6,7 @@ namespace Dominio.Entidades
 {
     public class Fornecedor
     {
-        public Fornecedor(string nome, string razaoSocial, 
-            string cnpj, string telefone, string email, 
-            string endereco, string bairro)
+        public Fornecedor(string nome, string razaoSocial, string cnpj, string telefone, string email, string endereco, string bairro, string complemento)
         {
             Nome = nome;
             RazaoSocial = razaoSocial;
@@ -17,6 +15,7 @@ namespace Dominio.Entidades
             Email = email;
             Endereco = endereco;
             Bairro = bairro;
+            Complemento = complemento;
         }
 
         public int Id { get; private set; }

@@ -6,11 +6,11 @@ namespace Dominio.IRepositories
 {
     public interface IFornecedorRepository
     {
-        Task<Fornecedor> Criar(Fornecedor fornecedor);
-        Task<Fornecedor> Alterar(Fornecedor fornecedor);
-        Task<Fornecedor> Excluir(Fornecedor fornecedor);
+        Task Criar(Fornecedor fornecedor);
+        Task Alterar(Fornecedor fornecedor);
+        Task Excluir(Fornecedor fornecedor);
         Task<Fornecedor> BuscarPorId(int id);
-        Task<IEnumerable<Fornecedor>> ListarTodosFornecedor();
+        Task<IEnumerable<Fornecedor>> ListarTodosFornecedores();
 
     }
 }

@@ -6,11 +6,11 @@ namespace Dominio.IRepositories
 {
     public interface IProdutoRepository
     {
-        Task<Produto> Criar(Produto produto);
-        Task<Produto> Alterar(Produto produto);
-        Task<Produto> Exluir(Produto produto);
+        Task Criar(Produto produto);
+        Task Alterar(Produto produto);
+        Task Excluir(Produto produto);
         Task<Produto> BuscarPorId(int id);
-        Task<IEnumerable<Produto>> ListarTodosProduto();
+        Task<IEnumerable<Produto>> ListarTodosProdutos();
 
     }
 }
