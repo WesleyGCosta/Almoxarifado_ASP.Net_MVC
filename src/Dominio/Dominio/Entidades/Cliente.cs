@@ -1,5 +1,6 @@
 ﻿using Dominio.Enums;
 using System;
+using System.Collections.Generic;
 
 namespace Dominio.Entidades
 {
@@ -25,6 +26,8 @@ namespace Dominio.Entidades
         public string Endereco { get; private set; }
         public string Bairro { get; private set; }
         public ESexo Sexo { get; private set; }
+
+        public IEnumerable<Produto> Produtos { get; private set; }
 
         public void AtualizarCliente(string nome, string cpf,
             DateTime dataDeNascimento, string telefone,

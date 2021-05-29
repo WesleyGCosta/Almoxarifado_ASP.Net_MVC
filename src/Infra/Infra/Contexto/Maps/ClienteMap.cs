@@ -20,6 +20,7 @@ namespace Infra.Contexto.Maps
             builder.Property(x => x.Bairro).IsRequired().HasMaxLength(20).HasColumnType("Varchar(40)");
             builder.Property(x => x.Sexo).HasConversion(y => y.ToString(), y => (ESexo)Enum.Parse(typeof(ESexo), y)).HasMaxLength(10).IsRequired();
 
+            builder.HasMany(x => x.Produtos).WithOne(x => x.Cliente);
         }
     }
 }

@@ -54,3 +54,17 @@ C:\Users\02520013206\Desktop\Projetos\Almoxarifado_ASP.Net_MVC\src\Historia\Hist
 C:\Users\02520013206\Desktop\Projetos\Almoxarifado_ASP.Net_MVC\src\Historia\Historia\obj\Debug\netcoreapp3.1\Historia.csproj.CopyComplete
 C:\Users\02520013206\Desktop\Projetos\Almoxarifado_ASP.Net_MVC\src\Historia\Historia\obj\Debug\netcoreapp3.1\Historia.dll
 C:\Users\02520013206\Desktop\Projetos\Almoxarifado_ASP.Net_MVC\src\Historia\Historia\obj\Debug\netcoreapp3.1\Historia.pdb
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Historia\Historia\bin\Debug\netcoreapp3.1\Historia.deps.json
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Historia\Historia\bin\Debug\netcoreapp3.1\Historia.dll
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Historia\Historia\bin\Debug\netcoreapp3.1\Historia.pdb
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Historia\Historia\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Historia\Historia\bin\Debug\netcoreapp3.1\Infra.dll
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Historia\Historia\bin\Debug\netcoreapp3.1\Infra.pdb
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Historia\Historia\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Historia\Historia\obj\Debug\netcoreapp3.1\Historia.csprojAssemblyReference.cache
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Historia\Historia\obj\Debug\netcoreapp3.1\Historia.AssemblyInfoInputs.cache
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Historia\Historia\obj\Debug\netcoreapp3.1\Historia.AssemblyInfo.cs
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Historia\Historia\obj\Debug\netcoreapp3.1\Historia.csproj.CoreCompileInputs.cache
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Historia\Historia\obj\Debug\netcoreapp3.1\Historia.csproj.CopyComplete
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Historia\Historia\obj\Debug\netcoreapp3.1\Historia.dll
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Historia\Historia\obj\Debug\netcoreapp3.1\Historia.pdb
