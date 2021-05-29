@@ -30,5 +30,15 @@ namespace Dominio.Entidades
 
         public Fornecedor Fornecedor { get; private set; }
         public Cliente Cliente { get; private set; }
+
+
+        public void AtualizarProduto(string nomeDoProduto, int quantidade, decimal preco, ECategoria categoria, string cnpj)
+        {
+            this.NomeDoProduto = nomeDoProduto;
+            this.Quantidade = quantidade;
+            this.Preco = preco;
+            this.Categoria = categoria;
+            this.Cnpj = cnpj;
+        }
     }
 }

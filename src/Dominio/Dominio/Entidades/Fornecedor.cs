@@ -30,5 +30,16 @@ namespace Dominio.Entidades
 
         public IEnumerable<Produto> Produtos { get; private set; }
 
+        public void AtualizarFornecedor(string nome, string razaoSocial, string cnpj, string telefone, string email, string endereco, string bairro, string complemento)
+        {
+            this.Nome = nome;
+            this.RazaoSocial = razaoSocial;
+            this.Cnpj = cnpj;
+            this.Telefone = telefone;
+            this.Email = email;
+            this.Endereco = endereco;
+            this.Bairro = bairro;
+            this.Complemento = complemento;
+        }
     }
 }

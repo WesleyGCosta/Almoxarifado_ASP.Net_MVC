@@ -17,9 +17,14 @@ namespace Historia.Clientes
         {
             var dadosDoCliente = await _clienteRepository.BuscarPorId(id);
 
-            dadosDoCliente.AtualizarCliente(cliente.Nome, cliente.Cpf,
-                cliente.DataDeNascimento, cliente.Telefone, cliente.Endereco,
-                cliente.Bairro, cliente.Sexo);
+            dadosDoCliente.AtualizarCliente(
+                cliente.Nome, cliente.Cpf,
+                cliente.DataDeNascimento,
+                cliente.Telefone, 
+                cliente.Endereco,
+                cliente.Bairro, 
+                cliente.Sexo
+                );
 
             await _clienteRepository.Alterar(dadosDoCliente);
         }
