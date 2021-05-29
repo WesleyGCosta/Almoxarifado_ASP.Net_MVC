@@ -1,9 +1,5 @@
 ﻿using Dominio.Entidades;
-using Dominio.Enums;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using WebApp.Models;
 
 namespace WebApp.Factories
@@ -35,11 +31,11 @@ namespace WebApp.Factories
                 clienteViewModel.Cpf,
                 clienteViewModel.DataDeNascimento,
                 clienteViewModel.Bairro,
-                clienteViewModel.Sexo);
+                clienteViewModel.Sexo
+                );
 
             return cliente;
         }
-
 
         public static IEnumerable<ClienteViewModel> MapearListaClienteViewModel(IEnumerable<Cliente> clientes)
         {

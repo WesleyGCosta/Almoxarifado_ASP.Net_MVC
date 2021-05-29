@@ -7,15 +7,14 @@ namespace Dominio.Entidades
 {
     public class Produto
     {
-        public Produto(int fornecedorId, int clienteId, string nomeDoProduto, int quantidade, decimal preco, ECategoria categoria, string cnpj)
+        public Produto(string nomeDoProduto, int quantidade, decimal preco, ECategoria categoria, string cnpj, string descricao)
         {
-            FornecedorId = fornecedorId;
-            ClienteId = clienteId;
             NomeDoProduto = nomeDoProduto;
             Quantidade = quantidade;
             Preco = preco;
             Categoria = categoria;
             Cnpj = cnpj;
+            Descricao = descricao;
         }
 
         public int Id { get; private set; }

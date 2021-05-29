@@ -1,4 +1,7 @@
-﻿using System.ComponentModel;
+﻿using Dominio.Entidades;
+using Dominio.Enums;
+using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
 
@@ -6,6 +9,10 @@ namespace WebApp.Models
 {
     public class ProdutoViewModel
     {
+
+        [HiddenInput]
+        public int Id { get; set; }
+
         [DisplayName("Produto")]
         [Required(ErrorMessage = "*Campo é Obrigatório!")]
         public string NomeDoProduto { get; set; }
@@ -18,10 +25,10 @@ namespace WebApp.Models
         public decimal Preco { get; set; }
 
         [Required(ErrorMessage = "*Campo é Obrigatório!")]
-        public string Categoria { get; set; }
+        public ECategoria Categoria { get; set; }
 
         [Required(ErrorMessage = "*Campo é Obrigatório!")]
-        public string Fornecedor { get; set; }
+        public Fornecedor Fornecedor { get; set; }
 
         [DisplayName("CNPJ")]
         [Required(ErrorMessage = "*Campo é Obrigatório!")]
