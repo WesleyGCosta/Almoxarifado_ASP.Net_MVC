@@ -1,20 +1,19 @@
 ﻿@model WebApp.Models.ProdutoViewModel
 
-    <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-            <span class="navbar-text" >
-                Pagina Principal >> Cadastro de Produto
-            </span>
-        </div>
-    </nav>
+@{
+    ViewData["Title"] = "Alterar";
+}
 
+<h1>Alterar</h1>
+
+<h4>Produto</h4>
+<hr />
 <div class="container">
-    <form asp-action="Novo">
+    <form asp-action="Alterar">
         <div class="card">
             <h5 class="card-header text-center">Formulário</h5>
             <div class="card-body">
                 <div class="row">
-
                     <div class="col-md-10">
                         <label asp-for="NomeDoProduto" class="form-label"></label>
                         <input type="text" asp-for="NomeDoProduto" class="form-control" placeholder="Nome do Produto">
@@ -40,7 +39,7 @@
                     </div>
                     <div class="col-md-4">
                         <label asp-for="Fornecedor" class="form-label"></label>
-                        <input asp-for="Fornecedor" class="form-control" type="text" placeholder="Fornecedor"/>
+                        <input asp-for="Fornecedor" class="form-control" type="text" placeholder="Fornecedor" />
                         <span asp-validation-for="Fornecedor" class="text-danger"></span>
                     </div>
                     <div class="col-md-3">
@@ -60,7 +59,7 @@
             <div class="card-footer">
                 <div class="row">
                     <div class="col-4">
-                        <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Voltar</a>
+                        <a asp-action="Index" class="btn btn-secondary">Voltar</a>
                     </div>
                     <div class="col-4 text-center">
                         <input class="btn btn-secondary" type="reset" value="Resetar">
@@ -75,6 +74,5 @@
 </div>
 
 @section Scripts {
-    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
-    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

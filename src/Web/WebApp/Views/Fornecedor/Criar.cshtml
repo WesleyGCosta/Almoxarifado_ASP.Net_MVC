@@ -1,0 +1,83 @@
+﻿@model WebApp.Models.FornecedorViewModel
+
+<nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+        <span class="navbar-text">
+            Pagina Principal >> Cadastro de Fornecedores
+        </span>
+    </div>
+</nav>
+
+<div class="container">
+    <form asp-action="Criar">
+        <div class="card">
+            <h5 class="card-header text-center">Formulário</h5>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <label asp-for="Nome" class="label-control"></label>
+                        <input type="text" asp-for="Nome" class="form-control" placeholder="Nome do Fornecedor">
+                        <span asp-validation-for="Nome" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-3">
+                        <label asp-for="Cnpj" class="label-control"></label>
+                        <input asp-for="Cnpj" class="form-control" type="text" placeholder="999.999.999-99">
+                        <span asp-validation-for="Cnpj" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-3">
+                        <label asp-for="Telefone" class="label-control"></label>
+                        <input asp-for="Telefone" class="form-control" type="text" placeholder="(99) 9 9999-9999">
+                        <span asp-validation-for="Telefone" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <label asp-for="RazaoSocial" class="label-control"></label>
+                        <input asp-for="RazaoSocial" class="form-control" type="text">
+                        <span asp-validation-for="RazaoSocial" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <label asp-for="Email" class="label-control"></label>
+                        <input asp-for="Email" class="form-control" type="text" placeholder="example@gmail.com">
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5">
+                        <label asp-for="Endereco" class="label-control"></label>
+                        <input asp-for="Endereco" class="form-control" type="text" placeholder="Endereço, N°">
+                        <span asp-validation-for="Endereco" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-3">
+                        <label asp-for="Bairro" class="label-control"></label>
+                        <input asp-for="Bairro" class="form-control" type="text" placeholder="Bairro">
+                        <span asp-validation-for="Bairro" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-4">
+                        <label asp-for="Complemento" class="label-control"></label>
+                        <input asp-for="Complemento" class="form-control" type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="row">
+                    <div class="col-4">
+                        <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Voltar</a>
+                    </div>
+                    <div class="col-4 text-center">
+                        <input class="btn btn-secondary" type="reset" value="Resetar">
+                    </div>
+                    <div class="col-4 text-right">
+                        <input type="submit" class="btn btn-secondary" value="Gravar" id="btnGravar" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+
+@section Scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

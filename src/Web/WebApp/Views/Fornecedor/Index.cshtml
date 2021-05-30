@@ -4,10 +4,10 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Fornecedores</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Criar" class="btn btn-success">Cadastrar</a>
 </p>
 <table class="table">
     <thead>
@@ -32,6 +32,9 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Bairro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Complemento)
             </th>
             <th></th>
         </tr>
@@ -61,9 +64,12 @@
                 @Html.DisplayFor(modelItem => item.Bairro)
             </td>
             <td>
-                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
-                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                @Html.DisplayFor(modelItem => item.Complemento)
+            </td>
+            <td>
+                @Html.ActionLink("Alterar", "Alterar", new { id=item.Id  }) |
+                @Html.ActionLink("Detalhar", "Detalhar", new { id=item.Id  }) |
+                @Html.ActionLink("Excluir", "Excluir", new { id=item.Id  })
             </td>
         </tr>
 }

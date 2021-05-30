@@ -28,7 +28,7 @@ namespace WebApp.Models
         public ECategoria Categoria { get; set; }
 
         [Required(ErrorMessage = "*Campo é Obrigatório!")]
-        public Fornecedor Fornecedor { get; set; }
+        public string Fornecedor { get; set; }
 
         [DisplayName("CNPJ")]
         [Required(ErrorMessage = "*Campo é Obrigatório!")]

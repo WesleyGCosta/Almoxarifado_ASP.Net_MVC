@@ -40,6 +40,8 @@ namespace WebApp
             //        });
             //});
 
+            services.AddScoped<IProdutoRepository, ProdutoRepository>();
+            services.AddScoped<IFornecedorRepository, FornecedorRepository>();
             services.AddScoped<IClienteRepository, ClienteRepository>();
             services.AddControllersWithViews();
         }

@@ -56,7 +56,6 @@ namespace WebApp.Controllers
             return View(clienteViewModel);
         }
 
-
         //aqui
         public async Task<IActionResult> Alterar(int id)
         {
@@ -67,9 +66,9 @@ namespace WebApp.Controllers
                 return RedirectToAction("Index");
             }
 
-            var autorViewModel = ClienteFactory.MapearClienteViewModel(cliente);
+            var clienteViewModel = ClienteFactory.MapearClienteViewModel(cliente);
 
-            return View(autorViewModel);
+            return View(clienteViewModel);
         }
 
         [HttpPost]
@@ -81,9 +80,9 @@ namespace WebApp.Controllers
                 return View(clienteViewModel);
             }
 
-            var autor = ClienteFactory.MapearCliente(clienteViewModel);
+            var cliente = ClienteFactory.MapearCliente(clienteViewModel);
 
-            await _alterarCliente.Executar(id, autor);
+            await _alterarCliente.Executar(id, cliente);
 
             return RedirectToAction("Index");
         }
@@ -97,9 +96,9 @@ namespace WebApp.Controllers
                 return RedirectToAction("Index");
             }
 
-            var autorViewModel = ClienteFactory.MapearClienteViewModel(cliente);
+            var clienteViewModel = ClienteFactory.MapearClienteViewModel(cliente);
 
-            return View(autorViewModel);
+            return View(clienteViewModel);
         }
 
         public async Task<IActionResult> Excluir(int id)
@@ -111,13 +110,9 @@ namespace WebApp.Controllers
                 return RedirectToAction("Index");
             }
 
-
             await _excluirCliente.Executar(cliente);
 
             return RedirectToAction("Index");
         }
-
-
-
     }
 }

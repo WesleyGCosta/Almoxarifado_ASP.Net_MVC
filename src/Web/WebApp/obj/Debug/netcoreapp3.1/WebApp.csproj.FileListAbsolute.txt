@@ -2122,11 +2122,11 @@ C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Web
 C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Cliente\Criar.cshtml.g.cs
 C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Cliente\Detalhar.cshtml.g.cs
 C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Cliente\Index.cshtml.g.cs
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Fornecedor\Alterar.cshtml.g.cs
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Fornecedor\Criar.cshtml.g.cs
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Fornecedor\Detalhar.cshtml.g.cs
 C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Fornecedor\Index.cshtml.g.cs
-C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Fornecedor\Novo.cshtml.g.cs
 C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Index.cshtml.g.cs
-C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Novo.cshtml.g.cs
 C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -2139,3 +2139,7 @@ C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Web
 C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\WebApp.dll
 C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\WebApp.pdb
 C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\WebApp.genruntimeconfig.cache
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Criar.cshtml.g.cs
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Index.cshtml.g.cs
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Alterar.cshtml.g.cs
+C:\Users\Wesle\OneDrive\Área de Trabalho\teste\Almoxarifado_ASP.Net_MVC\src\Web\WebApp\obj\Debug\netcoreapp3.1\Razor\Views\Produto\Detalhar.cshtml.g.cs
