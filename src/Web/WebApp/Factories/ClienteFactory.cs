@@ -39,8 +39,6 @@ namespace WebApp.Factories
 
             return cliente;
         }
-
-
         public static IEnumerable<ClienteViewModel> MapearListaClienteViewModel(IEnumerable<Cliente> clientes)
         {
             var lista = new List<ClienteViewModel>();
@@ -50,8 +48,6 @@ namespace WebApp.Factories
             }
 
             return lista;
-        }
-
-        
+        }     
     }
 }

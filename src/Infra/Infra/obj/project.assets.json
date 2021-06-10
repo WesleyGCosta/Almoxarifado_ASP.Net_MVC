@@ -957,27 +957,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\02520013206\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\Wesle\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\02520013206\\Desktop\\Projetos\\Almoxarifado_ASP.Net_MVC\\src\\Infra\\Infra\\Infra.csproj",
+      "projectUniqueName": "C:\\Users\\Wesle\\OneDrive\\Área de Trabalho\\teste\\Almoxarifado_ASP.Net_MVC\\src\\Infra\\Infra\\Infra.csproj",
       "projectName": "Infra",
-      "projectPath": "C:\\Users\\02520013206\\Desktop\\Projetos\\Almoxarifado_ASP.Net_MVC\\src\\Infra\\Infra\\Infra.csproj",
-      "packagesPath": "C:\\Users\\02520013206\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\02520013206\\Desktop\\Projetos\\Almoxarifado_ASP.Net_MVC\\src\\Infra\\Infra\\obj\\",
+      "projectPath": "C:\\Users\\Wesle\\OneDrive\\Área de Trabalho\\teste\\Almoxarifado_ASP.Net_MVC\\src\\Infra\\Infra\\Infra.csproj",
+      "packagesPath": "C:\\Users\\Wesle\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Wesle\\OneDrive\\Área de Trabalho\\teste\\Almoxarifado_ASP.Net_MVC\\src\\Infra\\Infra\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\02520013206\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Wesle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -990,8 +987,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\02520013206\\Desktop\\Projetos\\Almoxarifado_ASP.Net_MVC\\src\\Dominio\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\Users\\02520013206\\Desktop\\Projetos\\Almoxarifado_ASP.Net_MVC\\src\\Dominio\\Dominio\\Dominio.csproj"
+            "C:\\Users\\Wesle\\OneDrive\\Área de Trabalho\\teste\\Almoxarifado_ASP.Net_MVC\\src\\Dominio\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Users\\Wesle\\OneDrive\\Área de Trabalho\\teste\\Almoxarifado_ASP.Net_MVC\\src\\Dominio\\Dominio\\Dominio.csproj"
             }
           }
         }
